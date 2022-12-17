@@ -1,0 +1,184 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.yes {
+    padding: 2% 8%;
+}
+
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5624d0;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.active a {
+    color: blue;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.burger {
+    color: black;
+}
+
+.site-banner {
+    background-image: url("https://raw.githubusercontent.com/akashyap2013/PortFolio_Website/master/img/banner/home-banner.png");
+    background-position: 0% 50%;
+    text-align: left;
+
+}
+
+.site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+
+
+.btn1 {
+    margin: 5% 3% 5% 0;
+}
+
+.about-area {
+    padding: 8rem 5rem;
+}
+
+.about-title {
+    text-align: left;
+}
+
+.about-area .about-title h2>span {
+    display: block;
+    letter-spacing: 18px;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.about-area .about-title .paragraph>p {
+    padding: .4rem 0;
+    font-size: 1.5rem;
+}
+
+.services-area {
+    padding: 7rem 2rem;
+}
+
+.services-area .services-title {
+    padding: 0 14rem;
+}
+
+.services-area .services-title h1 {
+    font-size: 35px;
+}
+
+.services-area .services {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.services-area .services:hover {
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.project-area {
+    padding: 4rem 0;
+    text-align: left;
+}
+
+.project-area .grid .our-project>.title h4 {
+    font: normal 700 25px/12px;
+}
+
+.project-area .grid .our-project .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h1{
+    font: normal 500 23px/ 30px;
+}
+.nom{
+    color: blue;
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: black;
+}
+
+footer.footer-area .social a:hover > i{
+    color: blue;
+}
+
+@media (max-width: 992px) {
+
+    .site-banner {
+        text-align: center;
+    }
+    .site-banner .site-title h3 {
+        padding-top: 0;
+    }
+    .title-image{
+        width: 60%;
+    }
+    .img-fluid{
+        width: 60%;
+    }
+    .services-area {
+        padding: 0rem 2rem;
+    }
+    .about-area {
+        padding: 0rem 5rem;
+    }
+    .services-area .services-title {
+        padding: 0 3rem;
+    }
+  }
